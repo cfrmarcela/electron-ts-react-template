@@ -4,11 +4,12 @@ import * as ReactDOM from 'react-dom';
 import { BrowserRouter } from 'react-router-dom';
 // import Rotas from './routes/Rotas'
 import Home from './home/Home'
+import Routes from './routes/Rotes'
 
 function render() {
   ReactDOM.render(
     <div>
-    <Home/> 
+      <Routes/>
     </div>, document.getElementById('root')!);
 }
 
