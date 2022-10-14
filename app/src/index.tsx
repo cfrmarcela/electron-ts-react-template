@@ -9,7 +9,9 @@ import Routes from './routes/Rotes'
 function render() {
   ReactDOM.render(
     <div>
+    <BrowserRouter>
       <Routes/>
+    </BrowserRouter>
     </div>, document.getElementById('root')!);
 }
 
