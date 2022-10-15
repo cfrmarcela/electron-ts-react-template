@@ -3,6 +3,8 @@ import './css/HomeStyle.css'
 
 export default function Home() {
   return (
-    <div>Home</div>
+    <div>
+      <a href="/login">cadastra</a>
+    </div>
   )
 }

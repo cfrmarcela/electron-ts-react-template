@@ -1,6 +1,6 @@
 Para rodar o app:
 - cd app
-- npm start
+- npm i
 
 pasta src:
 - contem os itens do app
