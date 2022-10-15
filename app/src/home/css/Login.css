@@ -2,16 +2,159 @@
 position: absolute;
 left: 2.85%;
 right: 49.24%;
-top: 35.45%;
+top: 30%;
 bottom: 40%;
 
 font-family: 'Manrope';
 font-style: normal;
 font-weight: 659;
-font-size: 58px;
-line-height: 77px;
+font-size: 45px;
+line-height: 60px;
 /* or 133% */
 
 color: #000000;
 }
-.
+.conta1{
+position: absolute;
+left: 2.85%;
+right: 78.89%;
+top: 65%;
+bottom: 31.64%;
+
+font-family: 'Archivo';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 20px;
+
+color: #000000;
+}
+.sombra{
+    position: absolute;
+left: 11.94%;
+right: 35.07%;
+top: 7.62%;
+bottom: 14.26%;
+
+background: radial-gradient(73.77% 73.77% at 50% 50%, rgba(56, 61, 69, 0.34) 0%, rgba(202, 225, 253, 0) 58.39%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+.medico{
+position: absolute;
+width: 600px;
+height: 558px;
+left: 360px;
+top: 50px;
+}
+.nome{
+position: absolute;
+background: #F3F8F7;
+width: 251px;
+height: 50px;
+left: 940px;
+top: 85px;
+padding: 0 0.5rem;
+margin-top: 1rem;
+outline: none;
+color: rgb(0, 0, 0);
+font-size: 1rem;
+border: 1px solid #c5c5c5;
+border-radius: 8px;
+}
+.email{
+position: absolute;
+background: #F3F8F7;
+width: 251px;
+height: 50px;
+left: 940px;
+top: 156px;
+padding: 0 0.5rem;
+margin-top: 1rem;
+outline: none;
+color: rgb(0, 0, 0);
+font-size: 1rem;
+border: 1px solid #c5c5c5;
+border-radius: 8px;
+}
+.senha{
+position: absolute;
+background: #F3F8F7;
+width: 251px;
+height: 50px;
+left: 940px;
+top: 227px;
+padding: 0 0.5rem;
+margin-top: 1rem;
+outline: none;
+color: rgb(0, 0, 0);
+font-size: 1rem;
+border: 1px solid #c5c5c5;
+border-radius: 8px;
+}
+.cpf{
+position: absolute;
+background: #F3F8F7;
+width: 251px;
+height: 50px;
+left: 940px;
+top: 299px;
+padding: 0 0.5rem;
+margin-top: 1rem;
+outline: none;
+color: rgb(0, 0, 0);
+font-size: 1rem;
+border: 1px solid #c5c5c5;
+border-radius: 8px;
+}
+.crp{
+position: absolute;
+background: #F3F8F7;
+width: 251px;
+height: 50px;
+left: 940px;
+top: 368px;
+padding: 0 0.5rem;
+margin-top: 1rem;
+outline: none;
+color: rgb(0, 0, 0);
+font-size: 1rem;
+border: 1px solid #c5c5c5;
+border-radius: 8px;
+}
+button{
+position: relative;
+top: 426px;
+left: 600px;
+background-color: #7C44F2;
+border: none;
+padding: 15px;
+width: 280px;
+border-radius: 10px;
+color: white;
+font-size: 15px;
+  
+}
+button:hover{
+background-color: #a089d0;
+}
+/* Works on Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #a089d0 white;
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  background: white;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #a089d0;
+  border-radius: 20px;
+  border: 3px solid #a089d0;
+}
+     
+     
