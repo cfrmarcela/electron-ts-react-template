@@ -1,3 +1,10 @@
 div {
   color: purple;
 }
+.play-pause{
+  position: absolute;
+  width: 51px;
+  height: 18px;
+  left: 39px;
+  top: 44px;
+}
