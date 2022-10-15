@@ -4,15 +4,19 @@ import './css/Login.css'
 export default function Loginps() {
   return (
     <>
-      <div className="header">
-      <p className='conta'>May your life<br></br>
-      serve to save other<br></br>
+      <div>Login</div>
+    
+    <div className="header">
+      <p className='conta'>May your life <br></br>
+      serve to save other <br></br>
       lives
       </p>
-    <p className='conta1'>
-    if you don't an account<br></br>
+    <p>
+    if you don’t an account
     you can Register here!
     </p>
+      
+
     </div>
     <div className='sombra'></div>
     <img src={require('../img/medicos.png')} alt="" className="medico"/>

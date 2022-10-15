@@ -1,0 +1,92 @@
+.conta{
+position: absolute;
+left: 2.85%;
+right: 49.24%;
+top: 35.45%;
+bottom: 40%;
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 659;
+font-size: 45px;
+line-height: 52px;
+/* or 133% */
+color: #000000;
+}
+
+.conta1{
+position: absolute;
+left: 2.97%;
+right: 78.98%;
+top: 61.67%;
+bottom: 39.36%;
+font-family: 'Archivo';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 25px;
+color: #000000;
+}
+
+.meninos{
+position: absolute;
+width: 330px;
+height: 440px;
+left: 496px;
+top: 172px;
+}
+
+.sombra{
+position: absolute;
+left: 28.54%;
+right: 18.47%;
+top: 17.58%;
+bottom: 4.3%;
+    background: radial-gradient(73.77% 73.77% at 50% 50%, rgba(197, 148, 215, 0.6) 18.6%, rgba(252, 248, 255, 0.22) 50.12%)
+}
+
+.email{
+position: absolute;
+background: #F3F8F7;
+width: 251px;
+height: 50px;
+left: 940px;
+top: 270px;
+padding: 0 0.5rem;
+margin-top: 1rem;
+outline: none;
+color: rgb(0, 0, 0);
+font-size: 1rem;
+border: 1px solid #C5C5C5;
+border-radius: 8px;
+}
+.senha{
+position: absolute;
+background: #F3F8F7;
+width: 251px;
+height: 50px;
+left: 940px;
+top: 350px;
+padding: 0 0.5rem;
+margin-top: 1rem;
+outline: none;
+color: rgb(0, 0, 0);
+font-size: 1rem;
+border: 1px solid #C5C5C5;
+border-radius: 8px;
+}
+
+button{
+position: relative;
+top: 415px;
+left: 600px;
+background-color: #7C44F2;
+border: none;
+padding: 15px;
+width: 280px;
+border-radius: 10px;
+color: white;
+font-size: 15px;
+}
+button:hover{
+background-color: #A089D0;
+}
