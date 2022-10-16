@@ -1,6 +1,7 @@
 import React from 'react'
-import './css/Perfil_Potinho.css'
-export default function Perfil_Potinho() {
+import './css/Perfil_Mood.css'
+
+export default function Perfil_Mood() {
   return (
     <>
         <img src={require('../img/logo.png')} alt="" className="play-pause" />
