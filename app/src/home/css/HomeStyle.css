@@ -1,10 +1,120 @@
-div {
-  color: purple;
-}
+
 .play-pause{
-  position: absolute;
-  width: 51px;
-  height: 18px;
-  left: 39px;
-  top: 44px;
+position: absolute;
+width: 70px;
+height: 55px;
+left: -3px;
+top: -3px;
 }
+.header{
+  /* PROTECT YOUR THINKING */
+position: absolute;
+width: 93px;
+height: 23px;
+left: 80px;
+top: 9px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 13px;
+line-height: 22px;
+
+color: #000000;
+}
+.header1{
+position: absolute;
+height: 23px;
+left: 177px;
+top: 9px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 22px;
+/* identical to box height */
+
+
+color: #000000;
+}
+.buttonhome{
+/* Box button home*/
+position: absolute;
+width: 92px;
+height: 40px;
+left: 251px;
+top: 9px;
+color: #7C44F2;
+
+font-size: "Poppins";
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+background: rgba(52, 43, 71, 0.17);
+border: transparent;
+border-radius: 8px;
+}
+.buttonhome:hover{
+  background-color: #beb3d4;
+}
+.buttonaccount{
+  /* Box Button Perfil*/
+  position: absolute;
+  width: 92px;
+  height: 40px;
+  left: 353px;
+  top: 9px;
+  color: #AFAFAF;  
+
+font-size: "Poppins";
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+background: transparent;
+border: transparent;
+border-radius: 8px;
+}
+.buttonaccount:hover{
+  background-color: #edeaf1;
+}
+.buttonchat{
+/* Box Button Chat*/
+position: absolute;
+width: 92px;
+height: 40px;
+left: 458px;
+top: 9px;
+color: #AFAFAF;  
+
+font-size: "Poppins";
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+background: transparent;
+border: transparent;
+border-radius: 8px; 
+}
+.buttonchat:hover{
+  background-color: #edeaf1;
+}
+.border{
+/* retangulo*/
+
+box-sizing: border-box;
+
+position: absolute;
+width: 680px;
+height: 673px;
+left: 33px;
+top: 101px;
+
+/* cinza icons */
+
+border: 1px solid #D6D7DB;
+border-radius: 30px;
+}
+

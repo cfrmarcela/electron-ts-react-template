@@ -11,9 +11,9 @@ export default function Rotas(): any {
 {/* /curso/e79f5587-eecd-4799-949d-5fcc46e36a81 */}
       <Routes>
 
-{/* <Route  path='/main_window' element={<Home/>}/> */}
+<Route  path='/main_window' element={<Home/>}/>
 {/*<Route  path='/main_window' element={<Loginps/>}/>*/}
-<Route  path='/main_window' element={<Login/>}/>
+{/* <Route  path='/main_window' element={<Login/>}/> */}
 
       </Routes>
     </>

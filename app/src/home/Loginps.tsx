@@ -16,13 +16,12 @@ export default function Loginps() {
     you can Register here!
     </p>
       
-
     </div>
     <div className='sombra'></div>
     <img src={require('../img/medicos.png')} alt="" className="medico"/>
     <input className="nome" type="text" placeholder='Nome:'></input>
     <input className="email" type="text" placeholder='Enter Email:'></input>
-    <input className="senha" type="password" placeholder='**********'></input>
+    <input className="senha" type="password" placeholder='••••••••'></input>
     <input className="cpf" type="text" placeholder='CPF:'></input>
     <input className="crp" type="text" placeholder='CRP:'></input>
     <button>Sing In</button>

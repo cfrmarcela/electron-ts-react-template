@@ -3,7 +3,7 @@ import './css/Loginps.css'
 export default function Login() {
   return (
     <>
-    <div>Login</div>
+  
     <div className="header">
           <p className='conta'>Protect your<br></br>
               Thinking with us <br></br>
@@ -15,7 +15,7 @@ export default function Login() {
           <div className='sombra'></div>
           <img src={require('../img/meninos.png')} alt="" className="meninos"/>
           <input className="email" type="text" placeholder='Enter e-mail'></input>
-          <input className="senha" type="password" placeholder='********'></input>
+          <input className="senha" type="password" placeholder='••••••••'></input>
           <button>Sing In</button>
       </div>
     </>
