@@ -2,8 +2,7 @@ import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from '../home/Home';
 import Loginps from '../home/Loginps';
-import Login from '../home/Login';
-import Chat from '../home/Chat';
+import Login from '../home/Login'
 // import { PrivateRoutes } from '.';
 
 export default function Rotas(): any {
@@ -12,8 +11,8 @@ export default function Rotas(): any {
 {/* /curso/e79f5587-eecd-4799-949d-5fcc46e36a81 */}
       <Routes>
 
-<Route  path='/main_window' element={<Chat/>}/>
-{/*<Route  path='/main_window' element={<Loginps/>}/> <Route  path='/main_window' element={<Home/>}/>*/}
+<Route  path='/main_window' element={<Home/>}/>
+{/*<Route  path='/main_window' element={<Loginps/>}/>*/}
 {/* <Route  path='/main_window' element={<Login/>}/> */}
 
       </Routes>
