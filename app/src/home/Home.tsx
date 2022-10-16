@@ -13,6 +13,14 @@ export default function Home() {
       <button type='button' className='buttonchat'> <img src={require('../img/chat.png')} alt="" className="pngaccount"/>  Chat</button>
       </div>
       <div className='border'></div>
+      <div className='caixatxt'></div>
+      <p className='pesquisa'>What are you feeling?  <img src={require('../img/enviar.png')} alt="" className="enviari"/></p>
+      <div className='sombra'></div>
+      <p className='recent'>Recent  <img src={require('../img/Vector.png')} alt="" className="vector"/></p>
+      <div className='caixa'></div><p className='hi'>Hi! Laura</p>
+      <p className='very'>Very nice to have you back.</p>
+      <p className='recommend'>Recommended</p>
+      <div className='line'></div>
     </div>
   </>
     
