@@ -53,12 +53,12 @@ font-style: normal;
 font-weight: 500;
 font-size: 14px;
 line-height: 24px;
-background: #b29fdb;
+background: #E9DFFD;
 border: transparent;
 border-radius: 8px;
 }
 .buttonhome:hover{
-  background-color: #beb3d4;
+  background-color: #B395ED;
 }
 .buttonaccount{
   /* Box Button Perfil*/
@@ -102,6 +102,14 @@ border-radius: 8px;
 .buttonchat:hover{
   background-color: #edeaf1;
 }
+.linha{
+  position: absolute;
+  width: 1786px;
+  height: 0px;
+  left: 0px;
+  top: 73.75px;
+  border: 1px solid #F5F6FA;
+ }
 .border{
 /* retangulo*/
 
@@ -130,14 +138,9 @@ top: 122px;
 
 background: #F5F6FA;
 border-radius: 30px;
-}
-.pesquisa{
+border: transparent;
+
 /* What are you feeling? */
-position: absolute;
-width: 318px;
-height: 35px;
-left: 97px;
-top: 136px;
 
 font-family: 'Poppins';
 font-style: normal;
@@ -156,8 +159,8 @@ color: #A8A8A9;
 position: absolute;
 width: 23.63px;
 height: 24px;
-left: 368px;
-top: 40px;
+left: 462px;
+top: 198px;
 }
 .caixa{
 /* caixa hi */
@@ -242,7 +245,7 @@ position: absolute;
 width: 188px;
 height: 36px;
 left: 35px;
-top: 869px;
+top: 832px;
 
 font-family: 'Poppins';
 font-style: normal;
@@ -258,13 +261,79 @@ color: #626262;
 /* Line 34 */
 
 position: absolute;
-width: 1440.07px;
+width: 1261px;
 height: 0px;
 left: -0.03px;
-top: 987px;
+top: 954px;
 
 /* cinza icons */
 
 border: 1px solid #D6D7DB;
 }
+.buttonvideo{
+/* caixa video */
+
+position: absolute;
+width: 120px;
+height: 44px;
+left: 198px;
+top: 904px;
+
+background: #E9DFFD;
+border-radius: 8px;
+border: transparent;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height */
+
+
+color: #7C44F2;
+}
+.buttonbooks{
+/* caixa video */
+
+position: absolute;
+width: 120px;
+height: 44px;
+left: 557px;
+top: 904px;
+
+background: transparent;
+border-radius: 8px;
+border: transparent;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height */
+  
+color: #AFAFAF;
+}
+.buttonmovies{
+  /* caixa video */
+  
+  position: absolute;
+  width: 120px;
+  height: 44px;
+  left: 916px;
+  top: 904px;
+  
+  background: transparent;
+  border-radius: 8px;
+  border: transparent;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height */
+    
+  color: #AFAFAF;
+  }
+  
 
