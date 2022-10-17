@@ -13,7 +13,13 @@ export default function Home() {
       <button type='button' className='buttonchat'> <img src={require('../img/chatroxo.png')} alt="" className="pngaccount"/>  Chat</button>
       </div>
     </div>
-  </>
-    
-  )
+    <div className= "linha" ></div>
+    <div className= "vertical" ></div>
+    <p className='Messagens'> Messagens </p>
+    <input className='retangulo' placeholder='Search'></input>
+    </>
+)
 }
+
+   
+
